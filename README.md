@@ -1,5 +1,3 @@
-[![Build Status](https://travis-ci.org/runtimejs/event-controller.svg?branch=master)](https://travis-ci.org/runtimejs/event-controller)
-
 ## SYNOPSIS
 
 Simple JavaScript event controller implementation. Similar to Node.js `EventEmitter`, but manages a single event type.
@@ -8,6 +6,8 @@ Simple JavaScript event controller implementation. Similar to Node.js `EventEmit
 - Manages a single event, avoids extra event type lookup. Can't dispatch arbitrary events, each event type needs its own controller.
 - Doesn't rely on strings to identify event types.
 - Might be faster (see benchmark below).
+
+[![Build Status](https://travis-ci.org/runtimejs/event-controller.svg?branch=master)](https://travis-ci.org/runtimejs/event-controller)
 
 ## USAGE
 
