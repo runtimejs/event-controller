@@ -21,7 +21,7 @@ event1.add(function (value) {
 event1.dispatch('hello');
 ```
 
-Example interface example:
+Interface example:
 
 ```js
 function MyObject() {
