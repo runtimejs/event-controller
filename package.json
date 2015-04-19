@@ -1,0 +1,29 @@
+{
+  "name": "event-controller",
+  "version": "0.0.0",
+  "description": "Simple JavaScript event controller implementation",
+  "main": "index.js",
+  "scripts": {
+    "test": "tape test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:runtimejs/event-controller.git"
+  },
+  "keywords": [
+    "runtime",
+    "event-controller",
+    "controller",
+    "events"
+  ],
+  "author": "runtime.js project authors",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/runtimejs/event-controller/issues"
+  },
+  "homepage": "https://github.com/runtimejs/event-controller",
+  "devDependencies": {
+    "benchmark": "^1.0.0",
+    "tape": "^4.0.0"
+  }
+}
